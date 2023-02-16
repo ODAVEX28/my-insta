@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="LOW-SE.css">
+    <title>Read your books</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="fone">
+       <img src="home-phones.png" alt="">
+        <div class="women">
+        </div>
+        </div>
+        <div class="login">
+        <div class="inst">
+        <div class="hate"></div>
+        <form action="" class="ent">
+        <input type="text" placeholder="   Phone number,username or email">
+        <input type="text" placeholder="   Password">
+        <button>Log in</button>
+        <div class="or"><div></div><p>OR</p><div></div></div>
+        <div class="Flogin">
+        <div class="face"></div><p>Log in with Facebook</p>
+        </div>
+        <a href="forgot.html">Forgot password?</a>
+        </form>
+        </div>
+        <div class="Signup"><p>Don't have an account?</p><a href="signup.html">Sign up</a></div>
+        <div class="GTA"><p>Get the app.</p></div>
+        <div class="GIO"><img src="c5Rp7Ym-Klz.png" alt=""><img src="EHY6QnZYdNX.png" alt=""></div>
+        </div>
+    </div>
+    <script>
+        function change(){
+            let img = document.querySelector(".women")
+            let s = 0
+            let ching = setInterval(() => {
+                s++
+                if (s == 0) {
+                    img.style.backgroundImage = "url(screenshot1.png)"
+                }
+                if (s == 1) {
+                    img.style.backgroundImage = "url(screenshot2.png)"
+                }
+                if (s == 2) {
+                    img.style.backgroundImage = "url(screenshot3.png)"
+                }
+                if (s == 3) {
+                    img.style.backgroundImage = "url(screenshot4.png)"
+                }
+                if (s > 3) {
+                    s = 0
+                    // alert(s)
+                }
+            }, 3000);
+        }
+        requestAnimationFrame(change)
+    </script>
+</body>
+<footer>
+    <div class="end">
+        <ul>
+        <li>Meta</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Jobs</li>
+        <li>Help</li>
+        <li>API</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Top Accounts</li>
+        <li>Locations</li>
+        <li>Instagram Lite</li>
+        <li>Contact Uploading & Non-Users</li>
+        </ul>
+        <div class="meta">
+        <select name="" id="" class="Engli"><option value="">English</option></select>
+        <p>© 2023 Instagram from Meta</p>
+        </div>
+    </div>
+</footer>
+</html>

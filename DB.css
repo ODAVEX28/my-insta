@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.dash{
+    font-family: sans-serif;
+    border-right: 1px solid rgba(128, 128, 128, 0.363);
+    height: 700px;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 20px;
+}
+li{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+li img{
+    width: 30px;
+    height: 30px;
+}

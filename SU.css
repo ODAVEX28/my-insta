@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.parent{
+    width: 350px;
+    height: 807.98px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.inst{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    width: 350px;
+    height: 622.98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.hate{
+    background-image: url(yXM3FgMdVNX.png);
+    width: 175px;
+    height: 51px;
+    background-position: 100% 40%;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 17px;
+}
+.bface{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    color: white;
+    background-color: rgba(30, 143, 255, 0.884);
+    width: 258px;
+    height: 32px;
+    border-radius: 7px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.face{
+    background-image: url(bruh.png);
+    width: 16px;
+    height: 16px;
+    background-position: 100% 78%;
+}
+.or{
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+.or div{
+    border-bottom:1px solid rgba(128, 128, 128, 0.363) ;
+    width: 109px;
+    height: 1px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.sign input{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    width: 258px;
+    height: 34px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.learn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    width: 250px;
+    height: 91px;
+    gap: 18px;
+    font-size: 11.7px;
+    font-weight: 100;
+}
+.learn p{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.learn span{
+    color: darkblue;
+    cursor: pointer;
+}
+.su{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    color: white;
+    background-color: rgba(30, 143, 255, 0.753);
+    width: 258px;
+    height: 32px;
+    border-radius: 7px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.login{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    width: 350px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.login a{
+    text-decoration: none;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.GTA{
+    font-size: 14px;
+    padding: 10px;
+}
+.GIO{
+    width: 350px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.GIO img{
+    width: 134px;
+    height: 40px;
+    cursor: pointer;
+}
+footer{
+    height: 134px;
+}
+.end{
+    margin-top: 30px;
+    width: 930px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.end ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+}
+.end ul :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.meta{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    font-size: 12px;
+    gap: 10px;
+}
+.Engli{
+    border: none;
+    color: grey;
+}
